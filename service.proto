@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Empty {
+}
+
+service Server {
+  rpc Foo (Empty) returns (Empty) {}
+}
